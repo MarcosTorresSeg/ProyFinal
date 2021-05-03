@@ -15,6 +15,6 @@ Tecnologies:
 
 Design:
 
-    - Figma:
+    - Figma: https://www.figma.com/file/9UMgd2tQrRc39ur4pL2FEk/MyNote?node-id=0%3A1
 
 Description:
