@@ -18,3 +18,15 @@ Design:
     - Figma: https://www.figma.com/file/9UMgd2tQrRc39ur4pL2FEk/MyNote?node-id=0%3A1
 
 Description:
+
+MyNote it´s a Web Application whose main function is to jot down notes.
+
+The application is endowed with several functionalities:
+
+    -  Full crud (NodeJs and MongoDB)
+    -  Login & Register
+    -  Create/Modify/Delete elements
+    -  A beautiful and intuitive interface
+    -  And future functionalities that we going to add
+
+It is totally safe, since all the data of our users is encrypted.
