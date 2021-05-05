@@ -12,6 +12,7 @@ Tecnologies:
     - Javascript
     - Html/Css/Boostrap
     - Files .hbs (Handlebars)
+    - Bcrypt
 
 Design:
 
