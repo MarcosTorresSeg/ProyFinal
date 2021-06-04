@@ -3,6 +3,7 @@ const path = require('path');
 const exphbs = require('express-handlebars');
 const methodOverride = require('method-override');
 const session = require('express-session');
+const flash = require('connect-flash');
 
 const app = express();
 require('./database');
@@ -20,15 +21,22 @@ app.engine('.hbs', exphbs({
 app.set('view engine', '.hbs');
 
 //Extra-Settings
-app.use(express.urlencoded({extended: false}));
+app.use(express.urlencoded({extended: true}));
 app.use(methodOverride('_method')); //Enviar metodos tipo PUT/DELETE/POST ...
 app.use(session({
     secret: 'coti',
     resave: true,
     saveUninitialized: true
 }));
+app.use(flash());
 
 //Variables
+app.use ((req, res, next) => {
+    res.locals.success_msg = req.flash('success_msg');
+    res.locals.error_msg = req.flash('error_msg');
+    
+    next();
+});
 
 //Routes
 app.use(require('./routes/index'));
