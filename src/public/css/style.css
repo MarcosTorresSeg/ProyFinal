@@ -1,3 +1,7 @@
+* {
+  font-family: "Quicksand", sans-serif;
+}
+
 body {
   background: #1488cc; /* fallback for old browsers */
   background: -webkit-linear-gradient(
