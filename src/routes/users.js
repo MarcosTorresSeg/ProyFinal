@@ -3,10 +3,21 @@ const router = express.Router();
 
 const User = require('../models/User');
 
+const passport = require('passport');
+
+//Login
 router.get('/users/signin', (req, res) =>{
     res.render('users/signin');
 });
 
+router.post('/users/signin', passport.authenticate('local', {
+    successRedirect: '/notes',
+    failureRedirect: '/users/signin',
+    failureFlash: true 
+}));
+
+
+//Register
 router.get('/users/signup', (req, res) =>{
     res.render('users/signup');
 });
