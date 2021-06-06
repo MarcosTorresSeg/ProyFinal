@@ -3,15 +3,29 @@
 }
 
 body {
-  background: #1488cc; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #2b32b2,
-    #1488cc
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #2b32b2,
-    #1488cc
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: (0px 4px 4px #000000);
+  background-image: url("https://cdn.pixabay.com/photo/2016/03/26/13/09/cup-of-coffee-1280537_960_720.jpg");
+  background-size: cover;
 }
+
+/*FOOTER*/
+.botton {
+  text-align: center;
+  color: white;
+}
+
+/*SIGNIN*/
+
+.login {
+  background: linear-gradient(
+    180deg,
+    rgba(182, 87, 0, 0.88) 0%,
+    rgba(58, 28, 113, 0.87) 100%
+  );
+}
+
+.p-login {
+  color: white;
+}
+
+/*SIGNUP*/

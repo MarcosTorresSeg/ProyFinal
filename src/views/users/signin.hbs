@@ -1,23 +1,26 @@
 <div class="row">
     <div class="cold-md-4 mx-auto">
         <div class="card mt-4 text-center">
-            <div class="card-header">
-                <h1>Sign In</h1>
-            </div>
-            <div class="card-body">
-                <form action="/users/signin" method="POST">
-                    <div class="form-group">
-                        <input type="email" class="form-control" name="email" placeholder="Email" autofocus>
-                    </div>
-                    <div class="form-group">
-                        <input type="password" class="form-control" name="password" placeholder="Password">
-                    </div>
-                    <div class="form-group">
-                        <button type="submit" class="btn btn-primary btn-block">
-                            Sign In
-                        </button>
-                    </div>
-                </form>
+            <div class="login">
+                <div class="card-header">
+                    <h1 class="p-login">Log In</h1>
+                </div>
+                <div class="card-body">
+                    <form action="/users/signin" method="POST">
+                        <div class="form-group">
+                            <input type="email" class="form-control" name="email" placeholder="Email" autofocus>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" name="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary btn-block">
+                                Sign In
+                            </button>
+                        </div>
+                        <p class="p-login">New to MyNote? <a href="/users/signup" class="p-login">Sign up</a></p>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
