@@ -3,7 +3,6 @@
 }
 
 body {
-  background-color: (0px 4px 4px #000000);
   background-image: url("https://cdn.pixabay.com/photo/2016/03/26/13/09/cup-of-coffee-1280537_960_720.jpg");
   background-size: cover;
   background-attachment: fixed;
@@ -16,7 +15,6 @@ body {
 }
 
 /*SIGNIN*/
-
 .login {
   background: linear-gradient(
     180deg,
@@ -29,4 +27,11 @@ body {
   color: white;
 }
 
-/*SIGNUP*/
+#pepe:hover {
+  color: #00ff94;
+}
+
+#navbarDropdown:hover {
+  color: #00ff94;
+  cursor: hand;
+}
