@@ -1,0 +1,37 @@
+* {
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2016/03/26/13/09/cup-of-coffee-1280537_960_720.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*FOOTER*/
+.botton {
+  text-align: center;
+  color: white;
+}
+
+/*SIGNIN*/
+.login {
+  background: linear-gradient(
+    180deg,
+    rgba(182, 87, 0, 0.88) 0%,
+    rgba(58, 28, 113, 0.87) 100%
+  );
+}
+
+.p-login {
+  color: white;
+}
+
+#pepe:hover {
+  color: #00ff94;
+}
+
+#navbarDropdown:hover {
+  color: #00ff94;
+  cursor: hand;
+}
