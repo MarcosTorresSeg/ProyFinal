@@ -17,6 +17,10 @@ Tecnologies:
 Design:
 
     - Figma: https://www.figma.com/file/9UMgd2tQrRc39ur4pL2FEk/MyNote?node-id=0%3A1
+    
+Postman: 
+
+    - https://losdelada.postman.co/workspace/MyNotes~691645ee-d14a-45a5-9a3b-31538105324d/request/13559693-dcf0bdad-142b-4014-a50f-398601469fac
 
 Description:
 
@@ -31,3 +35,5 @@ The application is endowed with several functionalities:
     -  And future functionalities that we going to add
 
 It is totally safe, since all the data of our users is encrypted.
+
+
